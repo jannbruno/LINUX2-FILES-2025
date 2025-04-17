@@ -1,0 +1,6 @@
+[Unit]
+Description=Run daily system maintenance
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/system_maintenance.sh

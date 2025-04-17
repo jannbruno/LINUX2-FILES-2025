@@ -1,0 +1,38 @@
+======= System Maintenance Run: 2025-04-16 03:00:01 ========
+Updating packages...
+======= System Maintenance Run: 2025-04-16 03:00:01 ========
+Updating packages...
+Filesystem                              Size  Used Avail Use% Mounted on
+tmpfs                                   389M  1.7M  387M   1% /run
+/dev/xvda2                              9.8G  8.1G  1.2G  88% /
+tmpfs                                   1.9G     0  1.9G   0% /dev/shm
+tmpfs                                   5.0M     0  5.0M   0% /run/lock
+tmpfs                                   389M  124K  389M   1% /run/user/1000
+/dev/mapper/workstation--bruno-xfs_lv   5.0G  130M  4.9G   3% /mnt/workstation-xfs
+/dev/mapper/workstation--bruno-ext4_lv  4.4G   24K  4.2G   1% /mnt/workstation-ext4
+172.16.1.10:/srv/nfs/backups            9.8G  5.1G  4.2G  55% /mnt/nfs_storage/backup
+97M	/home/student
+16K	/home/sftpuser
+======= End of System Maintenance =======
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following upgrades have been deferred due to phasing:
+  ubuntu-drivers-common
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Filesystem                              Size  Used Avail Use% Mounted on
+tmpfs                                   389M  1.7M  387M   1% /run
+/dev/xvda2                              9.8G  8.1G  1.2G  88% /
+tmpfs                                   1.9G     0  1.9G   0% /dev/shm
+tmpfs                                   5.0M     0  5.0M   0% /run/lock
+tmpfs                                   389M  124K  389M   1% /run/user/1000
+/dev/mapper/workstation--bruno-xfs_lv   5.0G  130M  4.9G   3% /mnt/workstation-xfs
+/dev/mapper/workstation--bruno-ext4_lv  4.4G   24K  4.2G   1% /mnt/workstation-ext4
+172.16.1.10:/srv/nfs/backups            9.8G  5.1G  4.2G  55% /mnt/nfs_storage/backup
+97M	/home/student
+16K	/home/sftpuser
+======= End of System Maintenance =======

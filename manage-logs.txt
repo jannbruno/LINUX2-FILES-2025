@@ -1,0 +1,15 @@
+/var/log/system_maintenance.log {
+	daily
+	rotate 7
+	compress
+	missingok
+	notifempty
+}
+
+/var/log/backup_logs.log {
+	daily
+	rotate 7
+	compress
+	missingok
+	notifempty
+}

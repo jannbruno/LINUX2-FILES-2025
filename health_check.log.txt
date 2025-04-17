@@ -1,0 +1,31 @@
+System Health Check - Wed Apr 16 05:00:31 PM ADT 2025
+Uptime:
+ 17:00:31 up 31 min,  1 user,  load average: 0.00, 0.00, 0.03
+-e 
+CPU and Memory Usage:
+top - 17:00:31 up 31 min,  1 user,  load average: 0.00, 0.00, 0.03
+Tasks: 208 total,   1 running, 207 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  9.1 us,  9.1 sy,  0.0 ni, 81.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3883.6 total,   1707.4 free,   1011.9 used,   1425.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   2871.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3232 root      20   0       0      0      0 I   9.1   0.0   0:00.29 kworker+
+   3483 root      20   0   14504   5464   3416 R   9.1   0.1   0:00.01 top
+      1 root      20   0   23520  14724   9476 S   0.0   0.4   0:02.77 systemd
+-e 
+Disk Usage:
+Filesystem                    Size  Used Avail Use% Mounted on
+tmpfs                         389M  1.6M  387M   1% /run
+/dev/xvda2                    9.8G  8.3G  1.0G  90% /
+tmpfs                         1.9G     0  1.9G   0% /dev/shm
+tmpfs                         5.0M     0  5.0M   0% /run/lock
+172.16.1.10:/srv/nfs/backups  9.8G  5.2G  4.2G  56% /mnt/nfs_storage/backup
+tmpfs                         389M  116K  389M   1% /run/user/1000
+-e 
+Recent Logins:
+student  tty2         Wed Apr 16 16:31   still logged in    tty2
+student  seat0        Wed Apr 16 16:31   still logged in    login screen
+reboot   system boot  Wed Apr 16 16:29   still running      6.11.0-21-generic
+student  tty2         Mon Apr 14 22:18 - down  (1+18:10)    tty2
+student  seat0        Mon Apr 14 22:18 - down  (1+18:10)    login screen
